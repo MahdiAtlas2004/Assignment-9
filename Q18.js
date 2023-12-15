@@ -37,6 +37,8 @@ var person = {
     ],
 };
 
+console.log(person);
+
 //Using loop for to print the favorite books of this person.
 for(let x of person.favoriteBooks){
     console.log(x);
